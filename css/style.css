@@ -952,8 +952,8 @@ ul {
 
 .slider-controls label {
   display: inline-block;
-  width: 8px;
-  height: 8px;
+  width: 12px;
+  height: 12px;
   margin-right: 22px;
 
   vertical-align: top;
@@ -987,8 +987,8 @@ ul {
 #product-1:checked ~ .slider-controls label[for="product-1"],
 #product-2:checked ~ .slider-controls label[for="product-2"],
 #product-3:checked ~ .slider-controls label[for="product-3"] {
-  background-image: url(../img/plus.svg);
-  background-position: 12px 12px;
+  background-image: url(../img/slider-button.svg);
+  background-position: 17px 17px;
 }
 
 .popular-list {
