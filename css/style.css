@@ -2355,10 +2355,10 @@ textarea.write-us-input {
   border: none;
   background: none;
   cursor: pointer;
-  /* display: none; */
+  display: block;
 }
 
-.in-the-cart {
+span.in-the-cart {
 top: 206px;
 left: 144px;
 font-weight: 800;
