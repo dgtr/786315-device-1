@@ -9,7 +9,7 @@
   </head>
   <body>
       <header class="main-header">
-        <a class="logo" aria-label="Логотип интернет магазина гаджетов &laquo;Девайс&raquo;">
+        <a class="logo" href="./index.html" aria-label="Логотип интернет магазина гаджетов &laquo;Девайс&raquo;">
           <img src="img/logo.svg" width="163" height="35" alt="Логотип интернет магазина гаджетов &laquo;Девайс&raquo;">
         </a>
         <div class="additional-navigation-wrapper">
@@ -176,11 +176,12 @@
         </form>
       </aside>
           <section class="filter-result">
-
-        <ul class="product-list">
-          <li>
+            <ul class="product-list">
+          <li class="product-1">
             <a href="">
               <img src="./img/item-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
+              <button type="button" class="in-the-cart">в корзину</button>
+              <button type="button" class="to-the-comparison">Добавить к сравнению</button>
               <div class="title-price-container">
               <h3 aria-label="Наименование товара">Любительская селфи-палка</h3>
               <span aria-label="Цена">500 руб.</span>
@@ -190,8 +191,10 @@
           <li>
             <a href="">
               <img src="./img/item-2.jpg" width="360" height="380" alt="Профессиональная селфи-палка">
+              <button type="button" class="in-the-cart">в корзину</button>
+              <button type="button" class="to-the-comparison">Добавить к сравнению</button>
               <div class="title-price-container">
-              <h3 aria-label="Наименование товара">Профессиональная селфи-палка</h3>
+              <h3 aria-label="Наименование товара">Профессиональная селфи&#8209;палка</h3>
               <span aria-label="Цена">1 500 руб.</span>
               </div>
             </a>
@@ -199,6 +202,8 @@
           <li>
             <a href="">
               <img src="./img/item-3.jpg" width="360" height="380" alt="Непотопляемая селфи-палка">
+              <button type="button" class="in-the-cart">в корзину</button>
+              <button type="button" class="to-the-comparison">Добавить к сравнению</button>
               <div class="title-price-container">
               <h3 aria-label="Наименование товара">Непотопляемая селфи-палка</h3>
               <span aria-label="Цена">2 500 руб.</span>
@@ -208,6 +213,8 @@
           <li>
             <a href="">
               <img src="./img/item-4.jpg" width="360" height="380" alt="Селфи-палка «Следуй за мной»">
+              <button type="button" class="in-the-cart">в корзину</button>
+              <button type="button" class="to-the-comparison">Добавить к сравнению</button>
               <div class="title-price-container">
               <h3 aria-label="Наименование товара">Селфи-палка «Следуй за мной»</h3>
               <span aria-label="Цена">4 900 руб.</span>
@@ -215,7 +222,18 @@
             </a>
           </li>
         </ul>
-      </section>
+            <div class="paginator-outer">
+              <div class="paginator-inner">
+                <button class="back-button">назад</button>
+                <div class="botton-container">
+                  <button class="number-button">1</button>
+                  <button class="number-button">2</button>
+                  <button class="number-button">3</button>
+                </div>
+                <button class="forward-button">вперед</button>
+              </div>
+            </div>
+          </section>
         </div>
     </div>
     </main>
