@@ -2349,14 +2349,14 @@ textarea.write-us-input {
 .to-the-comparison {
   position: absolute;
 
-  display: block;
+  display: none;
 
   background: none;
   border: none;
   cursor: pointer;
 }
 
-span.in-the-cart {
+a.in-the-cart {
   top: 206px;
   left: 144px;
   z-index: 100;
@@ -2400,7 +2400,7 @@ span.in-the-cart {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.to-the-comparison {
+a.to-the-comparison {
   top: 262px;
   left: 136px;
 
@@ -2419,9 +2419,9 @@ span.in-the-cart {
   color: rgba(0, 0, 0, 0.2);
 }
 
-li.product-1:hover ~ .in-the-cart,
-li.product-1:hover ~ .to-the-comparison {
-  display: none;
+.product-list li:hover .in-the-cart,
+.product-list li:hover .to-the-comparison {
+  display: block;
 }
 
 .footer-rowwrapper-1 .autorisation li {
